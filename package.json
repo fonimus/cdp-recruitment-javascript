@@ -1,0 +1,22 @@
+{
+  "name": "cdp-recruitment-javascript",
+  "version": "1.0.0",
+  "description": "Cdp recruitment javascript assignment",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fonimus/cdp-recruitment-javascript.git"
+  },
+  "author": "François ONIMUS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fonimus/cdp-recruitment-javascript/issues"
+  },
+  "homepage": "https://github.com/fonimus/cdp-recruitment-javascript#readme",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}

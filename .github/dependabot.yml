@@ -1,0 +1,19 @@
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    commit-message:
+      prefix: "⬆️ "
+    schedule:
+      interval: weekly
+      day: sunday
+    open-pull-requests-limit: 99
+  - package-ecosystem: npm
+    directory: /sample-module/
+    commit-message:
+      prefix: "⬆️ "
+    schedule:
+      interval: weekly
+      day: sunday
+    open-pull-requests-limit: 99
